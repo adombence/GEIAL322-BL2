@@ -2,6 +2,7 @@
 Adatbázisrendszerek I.
 
 
+```mermaid
 erDiagram
     STUDENT {
         int StudentID
@@ -30,3 +31,5 @@ erDiagram
     TEACHER }o--|| SUBJECT : "teaches"
     TEACHER }o--|| CLASS : "teaches"
     CLASS ||--o{ SUBJECT : "includes"
+
+```
